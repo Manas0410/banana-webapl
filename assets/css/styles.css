@@ -78,8 +78,8 @@ a{
 }
 .g2-absolute-text{
   position: absolute;
-    top: 35px;
-    left: 39%;
+    top: 53px;
+    left: 38%;
     display: flex;
     flex-direction: column;
     gap: 4px;
