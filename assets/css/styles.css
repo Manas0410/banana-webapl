@@ -34,7 +34,7 @@ a{
     align-items: center;
     position: absolute;
     bottom: 19%;
-    left: 44%;
+    left: 45%;
 }
 .logo-tv{
   display: flex;
@@ -132,7 +132,7 @@ a{
   flex-direction: row;
   background-color: black;
   width: 100vw;
-  padding-left:82px;
+  padding-left: 218px;
   padding-bottom: 35px;
 }
 ul{
@@ -150,7 +150,7 @@ ul{
 .g3-absolute-text{
   position: absolute;
   top: 35px;
-  left: 23%;
+  left: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
