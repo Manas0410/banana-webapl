@@ -132,7 +132,7 @@ a{
   display: flex;
   flex-direction: row;
   background-color: black;
-  width: 100vw;
+  /* width: 100vw; */
   padding-left: 218px;
   padding-bottom: 35px;
 }
