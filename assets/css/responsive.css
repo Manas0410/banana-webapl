@@ -1,0 +1,121 @@
+@media screen and (max-width:480px){
+    .store{
+      display:none;
+    }
+    .mac{
+      display:none;
+    }
+    .ipad{
+      display:none;
+    }
+    .watch{
+      display:none;
+    }
+    .airpods{
+      display:none;
+    }
+    .tvhome{
+      display:none;
+    }
+    .entertain{
+      display:none;
+    }
+    .accessories{
+      display:none;
+    }
+    .support{
+      display:none;
+    }
+    .storetop{
+        display:none;
+    }
+    .prompt-text {
+        gap: 8px;
+        background-color: #fbfbfd;
+        color: #1d1d1f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        font-size: 12px;
+        padding-right: 42px;
+    }
+    .g2-link {
+        color: rgba(73, 160, 207, 0.953);
+        border-bottom: 2px solid transparent;
+        width: 51px;
+    }
+    img {
+        width: 100% !important;
+        height: 420px !important;
+    }
+    .g1-absolute-text {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 19%;
+        left: 35%;
+    }
+    .g2-abs-txt {
+        color: black;
+        font-size: 31px !important;
+        font-weight: 800;
+    }
+    .g2link-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        padding-left: 58px;
+    }
+    span.g2-link {
+        width: 96px;
+    }
+    .g2-absolute-text-real {
+        position: absolute;
+        top: 25px;
+        left: 16%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+    }
+    .g3-ab-txtt{
+        color: white;
+        font-size: 27px !important;
+        font-weight: 550;
+    }
+    .g2-absolute-text {
+        position: absolute;
+        top: 53px;
+        left: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+    }
+    
+    .g4-g5 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding-left: 0;
+    }
+    #gofg4g5{
+        width: 100% !important;
+    }
+    .g3-absolute-text {
+        position: absolute;
+        top: 37px;
+        left: 16%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
