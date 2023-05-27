@@ -127,4 +127,26 @@
         padding-right: 40px;
         padding-top: 10px;
     }
+    .list-link-container{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 9px;
+    gap: 20px 20px;    }
+    .responsive-bottonpage {
+      display: none;
+  }
+  .responsive-button{
+    display: block;
+  }
+  .responsive-button-click-page{
+    display: flex;
+      flex-direction: column;
+      gap: 0px;
+      padding-left: 34px;
+      color: white;
+      background-color: black;
+      font-size: 25px;
+      font-weight: 700;
+  }
 }

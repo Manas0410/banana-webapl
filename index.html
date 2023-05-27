@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png" />
 
     <link
@@ -26,7 +32,7 @@
           <a href=""
             ><span class="material-symbols-outlined"> nutrition </span></a
           >
-          <a class="storetop" href=""
+          <a class="storetop" href="" style="color: white"
             ><div class="store">
               <span>Store</span>
               <div class="store-hover-container">
@@ -455,9 +461,41 @@
           <a href=""
             ><span class="material-symbols-outlined"> local_mall </span></a
           >
+          <button
+            class="responsive-button"
+            id="respbutton"
+            style="padding: 0; border: none"
+          >
+            <span
+              class="material-symbols-outlined"
+              style="
+                display: flex;
+                align-items: center;
+                padding: 0;
+                background-color: black;
+                color: white;
+                margin: 0;
+                border-bottom: none;
+              "
+            >
+              menu
+            </span>
+          </button>
         </nav>
       </div>
     </header>
+    <div class="responsive-bottonpage" id="buttonpage">
+      <p>Store</p>
+      <p>Mac</p>
+      <p>iPad</p>
+      <p>iPhone</p>
+      <p>Watch</p>
+      <p>Airpods</p>
+      <p>Tv & Home</p>
+      <p>Entertainment/p></p>
+      <p>Accessories</p>
+      <p>Support</p>
+    </div>
     <div class="prompt-text">
       <p style="margin: 0px">
         Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro.
@@ -500,7 +538,7 @@
             <img
               src="./assets/images/g2.jpg"
               alt=""
-              style="width: 100%; height: 675px"
+              style="width: 100%; height: 675px; object-fit: cover"
             />
             <div class="g2-absolute-text-real">
               <div
@@ -525,7 +563,7 @@
             <img
               src="./assets/images/g3.jpg"
               alt=""
-              style="width: 100%; height: 675px"
+              style="width: 100%; height: 675px; object-fit: cover"
             />
             <div class="g2-absolute-text">
               <div
@@ -547,7 +585,11 @@
         <div class="g" id="gofg4g5" style="width: 50%">
           <div class="g3-relative">
             <a href=""
-              ><img src="./assets/images/g4.jpg" alt="" style="width: 100%" />
+              ><img
+                src="./assets/images/g4.jpg"
+                alt=""
+                style="width: 100%; object-fit: cover"
+              />
               <div class="g3-absolute-text">
                 <div style="color: white; font-size: 45px; font-weight: 550">
                   iWatch
@@ -566,7 +608,11 @@
         <div class="g" id="gofg4g5" style="width: 50%">
           <a href="">
             <div class="g3-relative">
-              <img src="./assets/images/g5.jpg" alt="" style="width: 100%" />
+              <img
+                src="./assets/images/g5.jpg"
+                alt=""
+                style="width: 100%; object-fit: cover"
+              />
               <div class="g3-absolute-text">
                 <div style="color: black; font-size: 45px; font-weight: 550">
                   iPad
@@ -587,7 +633,11 @@
         <div class="g" id="gofg4g5" style="width: 50%">
           <a href="">
             <div class="g3-relative">
-              <img src="./assets/images/g6.jpg" alt="" style="width: 100%" />
+              <img
+                src="./assets/images/g6.jpg"
+                alt=""
+                style="width: 100%; object-fit: cover"
+              />
               <div class="g3-absolute-text">
                 <div style="color: white; font-size: 45px; font-weight: 550">
                   MacBook Pro
@@ -606,7 +656,11 @@
         <div class="g" id="gofg4g5" style="width: 50%">
           <a href="">
             <div class="g3-relative">
-              <img src="./assets/images/g7.jpg" alt="" style="width: 100%" />
+              <img
+                src="./assets/images/g7.jpg"
+                alt=""
+                style="width: 100%; object-fit: cover"
+              />
               <div class="g3-absolute-text">
                 <div style="color: white; font-size: 45px; font-weight: 550">
                   Homepod
@@ -624,7 +678,7 @@
     </div>
     <br />
     <div class="below-text-container">
-      <div>
+      <div class="long-text">
         <p>
           1. Trade-in values will vary based on the condition, year, and
           configuration of your eligible trade-in device. Not all devices are
@@ -679,7 +733,9 @@
         </p>
         <p>
           Learn more about how Apple Card applications are evaluated at
-          <a href="" style="border: bottom 1px soloid #6e6e73; color: #6e6e73"
+          <a
+            href=""
+            style="border: bottom 1px soloid #6e6e73; color: #6e6e73 !important"
             >support.apple.com/kb/HT209218.</a
           >
         </p>
@@ -743,6 +799,8 @@
           </div>
         </div>
       </div>
+      <!-- responsivelist -->
+
       <br />
       <div>
         More ways to shop: Find an Apple Store or other retailer near you. Or
@@ -763,3 +821,25 @@
 </html>
 <script type="module" src="./assets/js/welcome.js"></script>
 <!-- <script src="./assets/js/welcome.js"></script> -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  crossorigin="anonymous"
+></script>
+<script>
+  const menuButton = document.getElementById("respbutton");
+  const toggleButton = document.querySelector(".responsive-bottonpage");
+  menuButton.addEventListener("click", () => {
+    toggleButton.classList.toggle("responsive-button-click-page");
+  });
+</script>

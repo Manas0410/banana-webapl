@@ -7,10 +7,13 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 10px;
-  gap: 22px;
+  gap: 24px;
  padding: 7px;
   color: white;
+ 
 }
+.header-links > a:hover{
+  color: white;}
 header{
   background-color: black;
   position: sticky;
@@ -21,7 +24,7 @@ header{
 }
 a{
   text-decoration: none;
-  color: aliceblue;
+  color: white !important;
 }
 :root {
   font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
@@ -323,6 +326,12 @@ ul{
   flex-direction: column;
   gap: 4px;
   align-items: center;
+}
+.responsive-bottonpage{
+  display: none;
+}
+.responsive-button{
+  display: none;
 }
 
 
