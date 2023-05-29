@@ -149,4 +149,23 @@
       font-size: 25px;
       font-weight: 700;
   }
+  .list-link-container {
+    display: none;}
+
+    .responsivelistt{
+      display: block;
+      color: #6e6e73 !important;
+      background-color: #d2d2d7 !important;
+    }
+    button.accordion-button.collapsed {
+      background-color: transparent;
+  }
+  .accordion-item {
+    background-color: transparent;
+}
+.accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  color: #1d1d1f;
+  background-color: transparent;
+}
 }

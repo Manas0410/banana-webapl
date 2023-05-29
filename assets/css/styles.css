@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 10px;
-  gap: 24px;
+  gap: 23px;
  padding: 7px;
   color: white;
  
@@ -334,6 +334,8 @@ ul{
   display: none;
 }
 
-
+.responsivelistt{
+  display: none;
+}
 
 /* responsivenessssssssssssss */
