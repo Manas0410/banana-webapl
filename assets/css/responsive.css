@@ -50,7 +50,7 @@
         height: 420px !important;
     }
     .g1-absolute-text {
-        color: white;
+        color: black;
         display: flex;
         flex-direction: column;
         gap: 6px;
@@ -114,7 +114,7 @@
     .g3-absolute-text {
         position: absolute;
         top: 37px;
-        left: 16%;
+        left:48%;
         display: flex;
         flex-direction: column;
         align-items: center;

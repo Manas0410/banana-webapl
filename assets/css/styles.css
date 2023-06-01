@@ -30,7 +30,7 @@ a{
   font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
 }
 .g1-absolute-text{
-  color: white;
+  color: black;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -151,13 +151,22 @@ ul{
 .g3-relative{
   position: relative;
 }
-.g3-absolute-text{
+/* .g3-absolute-text{
   position: absolute;
   top: 35px;
   left: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
+} */
+.g3-absolute-text{
+  position: absolute;
+  top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .list-heading{
   opacity: 0.8;
