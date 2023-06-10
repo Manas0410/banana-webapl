@@ -148,6 +148,7 @@
       background-color: black;
       font-size: 25px;
       font-weight: 700;
+      height: 100vh;
   }
   .list-link-container {
     display: none;}
@@ -167,5 +168,86 @@
   border-radius: 0;
   color: #1d1d1f;
   background-color: transparent;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 900px){
+  .store{
+    display:none;
+  }
+  .mac{
+    display:none;
+  }
+  .ipad{
+    display:none;
+  }
+  .watch{
+    display:none;
+  }
+  .airpods{
+    display:none;
+  }
+  .tvhome{
+    display:none;
+  }
+  .entertain{
+    display:none;
+  }
+  .accessories{
+    display:none;
+  }
+  .support{
+    display:none;
+  }
+  .storetop{
+      display:none;
+  }
+  .g4-g5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+}
+#gofg4g5{
+  width: 100% !important;
+}
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+  /* gap: 21px; */
+  padding: 7px;
+  color: white;
+}
+.responsive-button{
+  display: block;
+}
+.responsive-button-click-page{
+  display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 34px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+.responsive-button-click-page {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding-left: 34px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  font-weight: 700;
+  width: 100%;
+  height: 100vh;
 }
 }
